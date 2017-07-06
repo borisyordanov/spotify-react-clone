@@ -1,0 +1,57 @@
+.sidebar {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    float: left;
+    color: grey;
+    width: 172px;
+    height: 78.7vh;
+    padding: 24px 24px 95px;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 8px 5px;
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a0a0a0;
+    display: block;
+}
+
+.sidebar .sidebar-search {
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-between;
+    border-top: 1px solid hsla(0, 0%, 100%, .25);
+    border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+    padding: 18px 5px;
+}
+
+.sidebar .logo {
+    height: 32px;
+    width: auto;
+}
+
+.sidebar .user-widget {
+    position: absolute;
+    bottom: 0;
+    margin: 8px 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.sidebar .user-widget .user-avatar {
+    width: 28px;
+    height: 28px;
+}
+
+.sidebar .user-widget .user-name {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+}

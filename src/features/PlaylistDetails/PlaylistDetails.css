@@ -1,0 +1,45 @@
+.playlist-view {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 2em 0 2em;
+}
+
+.playlist-view .playlist-info {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 8px;
+}
+
+.playlist-view .playlist-info > * {
+    margin-bottom: .8em;
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.playlist-view .playlist-info .image {
+    height: 300px;
+}
+
+.playlist-view .playlist-info .title {
+    color: #fff;
+    font-size: 1.73em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.playlist-view .playlist-info .artist {
+    display: inline;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.playlist-view .playlist-info .total-songs {
+    text-transform: uppercase;
+}
+
+.playlist-view .tracks {
+    margin-left: 50px;
+    width: 100%;
+}

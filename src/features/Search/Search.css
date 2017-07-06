@@ -1,0 +1,19 @@
+.search {
+	display: flex;
+	flex-direction: column;
+}
+
+.search .input-box {
+	width: 100%;
+	height: 140px;
+	background-color: #242424;
+	padding: 1.5em 2em;
+	box-sizing: border-box;
+	border: none;
+	color: #1ed760;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 1.2;
+	text-shadow: 0 0 0 #fff;
+	-webkit-text-fill-color: transparent;
+}

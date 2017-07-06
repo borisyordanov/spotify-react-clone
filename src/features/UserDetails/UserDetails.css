@@ -1,0 +1,32 @@
+.user-info {
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+.user-info .avatar {
+	height: 200px;
+}
+
+.user-info .name {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: .5em;
+}
+
+.user-view {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.user-view .title {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 0 0 35px;
+}

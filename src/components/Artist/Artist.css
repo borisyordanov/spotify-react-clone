@@ -1,0 +1,20 @@
+.artist {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+.artist .image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.artist .name {
+    margin: 12px 0 4px;
+    border-bottom: none;
+    font-size: 1.1em;
+    line-height: 1.2;
+    max-height: 2.64em;
+    color: #fff;
+}

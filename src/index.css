@@ -1,0 +1,25 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(56, 76, 97), rgb(5, 7, 9) 85%);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently */
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,17 @@
+.top-nav {
+    display: flex;
+	justify-content: center;
+}
+
+.top-nav .link-item {
+	padding: 8px 5px;
+	margin: 10px 5px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #a0a0a0;
+	list-style: none;
+}
+
+.top-nav .nav-item {
+	
+}

@@ -1,0 +1,45 @@
+.album-view {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 2em 0 2em;
+}
+
+.album-view .album-info {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 8px;
+}
+
+.album-view .album-info > * {
+    margin-bottom: .8em;
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.album-view .album-info .image {
+    height: 300px;
+}
+
+.album-view .album-info .title {
+    color: #fff;
+    font-size: 1.73em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.album-view .album-info .artist {
+    display: inline;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.album-view .album-info .total-songs {
+    text-transform: uppercase;
+}
+
+.album-view .tracks {
+    margin-left: 50px;
+    width: 100%;
+}

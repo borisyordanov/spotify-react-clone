@@ -1,0 +1,19 @@
+.album {
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+.album .image {
+	height: 300px;
+	width: auto;
+}
+
+.album .title {
+    margin: 12px 0 4px;
+    border-bottom: none;
+    font-size: 1.1em;
+    line-height: 1.2;
+    max-height: 2.64em;
+    color: #fff;
+}

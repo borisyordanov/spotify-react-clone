@@ -1,0 +1,28 @@
+.artist-info {
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+.artist-info .avatar {
+	height: 300px;
+}
+
+.artist-info .name {
+	color: white;
+}
+
+.artist-info .followers {
+	color: white;
+}
+
+.artist-view {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.artist-view .title {
+	text-align: center;
+	color: white;
+}

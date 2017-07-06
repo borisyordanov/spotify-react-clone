@@ -1,0 +1,13 @@
+.btn {
+	display: inline-block;
+	height: 40px;
+	padding: 0 8px;
+	margin: 0 2px;
+	font-size: 18px;
+	font-weight: bold;
+	background: transparent;
+	box-shadow: 0 0 0 3px #fff inset;
+	cursor: pointer;
+	color: #fff;
+	transition: background .3s;
+}

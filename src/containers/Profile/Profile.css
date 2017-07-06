@@ -1,0 +1,14 @@
+.profile {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.profile .avatar {
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.profile .user-name {
+	color: white;
+	margin-bottom: 10px;
+}

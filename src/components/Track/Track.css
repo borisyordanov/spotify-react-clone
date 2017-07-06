@@ -1,0 +1,14 @@
+.track {
+	margin-bottom: .8em;
+	padding-left: 16px;
+	color: hsla(0, 0%, 100%, .5);
+}
+
+.track .track-name {
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.track .duration {
+	float: right;
+}
