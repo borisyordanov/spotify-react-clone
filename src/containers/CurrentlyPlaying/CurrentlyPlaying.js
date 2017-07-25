@@ -37,10 +37,10 @@ class CurrentlyPlaying extends React.Component {
 	render() {
 		return (
 			<div className="currently-playing">
-				<img className="album-image" src={this.props.currentlyPlaying.albumImage} alt="" />
+				<img className="album-image" src={this.props.currentlyPlaying.image} alt="" />
 				<div className="track-info">
 					<p className="track">{this.props.currentlyPlaying.name}</p>
-					<p className="artist">{this.props.currentlyPlaying.artist}</p>
+					<p className="artist">{this.props.currentlyPlaying.artistName}</p>
 				</div>
 				<div className="controls">
 					<span className="small">

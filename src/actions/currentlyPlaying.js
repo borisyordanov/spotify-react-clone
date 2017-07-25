@@ -21,7 +21,7 @@ export const getCurrentlyPlaying = (author, id) => {
 		requests
 			.GetCurrentlyPlaying(author, id)
 			.then(response => {
-				dispatch(updateCurrentlyPlaying(new CurrentlyPlayingModel(response)));
+				dispatch(updateCurrentlyPlaying(new CurrentlyPlayingModel(response.item)));
 			})
 			.catch(err => console.log(err));
 	};

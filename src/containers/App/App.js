@@ -19,6 +19,7 @@ import AlbumDetails from '../../features/AlbumDetails/AlbumDetails';
 import UserDetails from '../../features/UserDetails/UserDetails';
 import Browse from '../../features/Browse/Browse';
 import YourMusic from '../../features/YourMusic/YourMusic';
+import init from '../../utils/init';
 import './App.css';
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
 	}
 
 	componentWillMount() {
+		init();	
 		this.props.actions.getUserProfile();
 	}
 
