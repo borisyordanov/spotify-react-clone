@@ -2,7 +2,8 @@ const requestParams = {
 	authURLparams: {
 		baseAuthURL: 'https://accounts.spotify.com/authorize',
 		clientID: 'ebfcd4994f834a85a320903fab5d4fea',
-		redirectURL: 'http://localhost:3000/callback',
+		// redirectURL: 'http://localhost:3000/callback',
+		redirectURL: 'https://comedian-seesaw-71584.netlify.com/callback',
 		responseType: 'token',
 		scope: 'user-library-read user-follow-read user-read-currently-playing'
 	},
