@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actions from '../../actions/userProfile';
 import {withRouter} from 'react-router';
-
 import Callback from '../../components/Callback/Callback';
 import PrivateRoute from '../../components/PrivateRoute/PrivateRoute';
 import CurrentlyPlaying from '../../containers/CurrentlyPlaying/CurrentlyPlaying';
