@@ -16,7 +16,9 @@ class CurrentlyPlaying extends React.Component {
 	}
 
 	componentWillMount() {
-		this.update();
+		if (this.props.userProfile.isAuthenticated) {
+        	this.update();
+        }
 	}
 
 	componentWillUnmount() {
@@ -63,7 +65,8 @@ class CurrentlyPlaying extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => ({
-	currentlyPlaying: state.currentlyPlaying
+	currentlyPlaying: state.currentlyPlaying,
+	userProfile: state.userProfile
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -29,6 +29,7 @@ class App extends React.Component {
 	componentWillMount() {
 		init();	
 		this.props.actions.getUserProfile();
+		console.log(this.props.userProfile);
 	}
 
 	render() {
@@ -38,17 +39,17 @@ class App extends React.Component {
 				<CurrentlyPlaying />
 				<section className="main-view">
 					<Switch>
-						<PrivateRoute authed={true} path="/browse" component={Browse} />
-						<PrivateRoute authed={true} path="/collection" component={YourMusic} />
-						<PrivateRoute authed={true} path="/search/:type" component={Search} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/browse" component={Browse} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/collection" component={YourMusic} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/search/:type" component={Search} />
 						<Route path="/login" component={Login} />
 						<Route path="/callback" component={Callback} />
-						<PrivateRoute authed={true} path="/profile" component={Profile} />
-						<PrivateRoute authed={true} path="/view/:id" component={PlaylistsByGenre} />
-						<PrivateRoute authed={true} path="/user/:author/playlist/:id" component={PlaylistDetails} />
-						<PrivateRoute authed={true} path="/artist/:id" component={ArtistDetails} />
-						<PrivateRoute authed={true} path="/album/:id" component={AlbumDetails} />
-						<PrivateRoute authed={true} path="/user/:id" component={UserDetails} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/profile" component={Profile} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/view/:id" component={PlaylistsByGenre} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/user/:author/playlist/:id" component={PlaylistDetails} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/artist/:id" component={ArtistDetails} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/album/:id" component={AlbumDetails} />
+						<PrivateRoute authed={this.props.userProfile.isAuthenticated} path="/user/:id" component={UserDetails} />
 					</Switch>
 				</section>
 			</main>

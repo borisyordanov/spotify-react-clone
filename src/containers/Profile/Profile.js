@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as userActions from '../../actions/userProfile';
 import * as currentlyPlayingActions from '../../actions/currentlyPlaying';
-
 import logout from '../../utils/logout';
 
 class Profile extends React.Component {
@@ -30,7 +29,7 @@ class Profile extends React.Component {
 	}
 
 	render() {
-		if (this.props.userProfile.isAuthenticated) {
+		if (!this.props.userProfile.isAuthenticated) {
 			return <Redirect to="/login" />;
 		} else {
 			return (
