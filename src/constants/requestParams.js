@@ -1,7 +1,7 @@
 const requestParams = {
 	authURLparams: {
 		baseAuthURL: 'https://accounts.spotify.com/authorize',
-		clientID: 'ebfcd4994f834a85a320903fab5d4fea',
+		clientID: '7ef237e5b7f647d0b73eb2487bc92544',
 		// redirectURL: 'http://localhost:3000/callback',
 		redirectURL: window.location.origin + '/callback',
 		responseType: 'token',
